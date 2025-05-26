@@ -1,3 +1,20 @@
+body{
+
+    background-color: aquamarine;
+    color: aliceblue;
+}
+
+h1{
+
+  color: black;
+}
+
+footer{
+
+  color: black;
+}
+
+
 .box {
 
     background-color: blue;
@@ -18,4 +35,12 @@
 
     text-align: center;
 
+}
+
+@media (max-width: 650px) {
+  body {
+    background-color: #b3f0ff;
+    color: #FFF;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+  }
 }
